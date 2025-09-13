@@ -44,7 +44,7 @@ export default function AuthForm() {
   return (
     <div className="container">
       <div className="text-center mb-4">
-        <img src="/logo.png" alt="Budget Buddy" height="200" />
+  <img src="assets/logo.png" alt="Budget Buddy" height="200" />
       </div>
       <h3 className="text-center mb-4">
         {isForgot ? 'Reset Password' : isSignUp ? 'Sign Up' : 'Sign In'}

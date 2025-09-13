@@ -612,7 +612,7 @@ export default function MainApp({ user }) {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand d-flex align-items-center" href="#" onClick={(e) => { e.preventDefault(); setCurrentView('home'); }}>
-            <img src="/logo.png" alt="Budget Buddy" height="40" />
+            <img src="assets/logo.png" alt="Budget Buddy" height="40" />
             <span className="ms-2 fw-bold text-primary">Budget Buddy</span>
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
