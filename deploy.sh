@@ -5,6 +5,7 @@ npm run build
 cd ..
 # Copy dist files to docs/
 rm -rf docs/
+mkdir docs
 cp -r budget-buddy/dist/* docs/
 
 # Add, commit, and push changes
